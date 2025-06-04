@@ -1,4 +1,4 @@
-import { Timer, Home, RefreshCcw, Book } from "lucide-react"
+import { Timer, RefreshCcw, Book } from "lucide-react"
 
 import {
   Sidebar,
@@ -14,11 +14,6 @@ import {
 // Menu items.
 const items = [
   {
-    title: "Home",
-    url: "/",
-    icon: Home,
-  },
-  {
     title: "Static",
     url: "/static",
     icon: Book,
@@ -29,8 +24,8 @@ const items = [
     icon: RefreshCcw,
   },
   {
-    title: "Revalidate",
-    url: "/revalidate",
+    title: "Revalidated",
+    url: "/revalidated",
     icon: Timer,
   },
 ]
